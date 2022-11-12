@@ -1,0 +1,67 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class csvImportData extends Model
+{
+     protected $table = 'csv_import_data';
+
+    protected $fillable = ['pid',
+        'bestellnummer',
+        'bestelldatum',
+        'zahldatum',
+        'tax_rate_from_database',
+        'netto_umsatz',
+        'umsatzsteuer',
+        'versandkosten',
+        'ust_auf_versandkosten',
+        'versandkosten_netto',
+        'umsatzsteuer_auf_versand',
+        'gesamt_brutto',
+        'rechnungsadresse_name',
+        'rechnungsadresse_zusatz',
+        'rechnungsadresse_strasse',
+        'rechnungsadresse_plz',
+        'rechnungsadresse_stadt',
+        'rechnungsadresse_land',
+        'rechnungsnummer_prefix',
+        'rechnungsnummer',
+        'plattform',
+        'versandadresse_name',
+        'versandadresse_zusatz',
+        'versandadresse_strasse',
+        'versandadresse_plz',
+        'versandadresse_stadt',
+        'versandadresse_land',
+        'rechnungsdatum',
+        'email',
+        'zahlart',
+        'gewicht',
+        'rechnungsadresse_firma',
+        'lieferadresse_firma',
+        'währung',
+        'sku_artikelnummer',
+        'artikeltext',
+        'anzahl',
+        'rabatt_prozent',
+        'einzelpreis_brutto',
+        'positionspreis_brutto',
+        'status',
+        'eigenschaft1_name',
+        'eigenschaft1',
+        'eigenschaft2_name',
+        'eigenschaft2_wert',
+        'eigenschaft3_name',
+        'eigenschaft3_wert',
+        'eigenschaft4_name',
+        'eigenschaft4_wert',
+        'sku',
+        'ean',
+        'shopname',
+        'lagerplatz',
+        'rechnungsadresse_name2',
+        'lieferadresse_name2',
+        'lieferadresse_name2'];
+}
